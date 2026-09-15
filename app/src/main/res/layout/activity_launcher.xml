@@ -16,19 +16,19 @@
         android:src="@drawable/splash_logo"
         android:scaleType="centerInside" />
 
-    <!-- 应用名称 -->
+    <!-- App Name -->
     <TextView
         android:id="@+id/tv_app_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="60dp"
-        android:text="小万"
+        android:text="OmniBot"
         android:textSize="32sp"
         android:textColor="#F5F7FA"
         android:textStyle="bold"
         android:fontFamily="sans-serif-medium" />
 
-    <!-- 加载指示器 -->
+    <!-- Loading Indicator -->
     <ProgressBar
         android:id="@+id/pb_loading"
         android:layout_width="32dp"
@@ -36,12 +36,12 @@
         android:layout_marginBottom="16dp"
         android:indeterminateTint="#F5F7FA" />
 
-    <!-- 加载文字 -->
+    <!-- Loading Text -->
     <TextView
         android:id="@+id/tv_loading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="正在初始化..."
+        android:text="Initializing..."
         android:textSize="14sp"
         android:textColor="#A7ADB5"
         android:fontFamily="sans-serif" />
